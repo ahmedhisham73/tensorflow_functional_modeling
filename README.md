@@ -39,7 +39,7 @@ We then create the model using the Model function, specifying the input and outp
 Functional modeling also allows for more complex architectures, such as models with multiple inputs or outputs, or models with branches and merges in the network. This makes it a powerful tool for creating more intricate neural networks.
 
 
-#weight initialzation 
+# WEIGHT INITIALIZATIONS PART 
 Weight initialization is the process of setting the initial values of the weights in a neural network. Proper weight initialization is crucial to the performance and stability of neural networks.
 
 There are several methods of weight initialization, including:
