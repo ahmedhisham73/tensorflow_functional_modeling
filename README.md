@@ -37,3 +37,21 @@ In this example, we first define the input layer with the Input function and spe
 We then create the model using the Model function, specifying the input and output layers. This creates a fully-connected neural network with two hidden layers and a softmax output layer.
 
 Functional modeling also allows for more complex architectures, such as models with multiple inputs or outputs, or models with branches and merges in the network. This makes it a powerful tool for creating more intricate neural networks.
+
+
+#weight initialzation 
+Weight initialization is the process of setting the initial values of the weights in a neural network. Proper weight initialization is crucial to the performance and stability of neural networks.
+
+There are several methods of weight initialization, including:
+
+Random initialization: This involves randomly initializing the weights with small values drawn from a uniform or normal distribution. The main advantage of this method is that it is easy to implement, but it can lead to slow convergence or vanishing gradients.
+
+Xavier initialization: This method scales the initial weights by the square root of the number of inputs to the layer, which helps to keep the variance of the activations roughly the same across layers. This method is widely used and can lead to faster convergence and better performance.
+
+He initialization: This method is similar to Xavier initialization, but scales the initial weights by the square root of the number of neurons in the previous layer, which is better suited for deep networks with many layers.
+
+Uniform initialization: This method initializes the weights with small random values drawn from a uniform distribution, which can help to prevent the saturation of neurons and promote diversity in the activations.
+
+Orthogonal initialization: This method initializes the weights as an orthonormal matrix, which helps to preserve the gradient signal during backpropagation and prevent the explosion or vanishing of gradients.
+
+Overall, the choice of weight initialization method depends on the specific task and architecture of the neural network.
